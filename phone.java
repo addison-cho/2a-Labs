@@ -4,7 +4,6 @@
  * Random Phone Number (2.14, 2.13 in book)
  * Generates a random phone number with certain restrictions
  */
-
 import java.util.Random;
 import java.text.DecimalFormat;
 
@@ -26,7 +25,7 @@ public class phone{
         e = (int)(Math.random() * 9999);
         
         // display
-        System.out.print("" + a + b + c + "-" + fmt3.format(d) + "-" + fmt4.format(e));
+        System.out.print("Your phone number is: " + a + b + c + "-" + fmt3.format(d) + "-" + fmt4.format(e));
         
     }
     

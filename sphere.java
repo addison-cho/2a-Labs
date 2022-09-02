@@ -5,11 +5,16 @@
  * Takes a radius of a sphere and returns its volume and surface area
  */
 import java.text.DecimalFormat;
+import java.util.Scanner;
 
 public class sphere{
    public static void main(String args[]){
-       // variables
-       double radius = 5, volume, sa;
+       // variables and objects
+       Scanner scan = new Scanner(System.in);
+       double radius, volume, sa;
+       
+       System.out.println("Radius: ");
+       radius = scan.nextDouble();
        
        // rounds to two decimals (or less)
        DecimalFormat fmt = new DecimalFormat("0.##");
@@ -18,7 +23,6 @@ public class sphere{
        volume = (4.0/3.0) * Math.pow(radius, 3) * Math.PI;
        sa = 4 * Math.PI * Math.pow(radius, 2);
        
-       // display
        System.out.println("Radius: " + radius);
        System.out.println("Volume: " + fmt.format(volume));
        System.out.println("Surface Area: " + fmt.format(sa));

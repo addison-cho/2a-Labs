@@ -4,7 +4,6 @@
  * Coin Counter
  * Calculates the total of multiple coins
  */
-
 import java.util.Scanner;
 import java.text.NumberFormat;
 

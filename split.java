@@ -4,7 +4,6 @@
  * Split the Bill at the Resturant
  * Takes a bill and calculates the tip. Then splits the amount of money across # people.
  */
-
 import java.text.NumberFormat;
 import java.util.Scanner;
 
@@ -31,7 +30,6 @@ public class split{
         total = bill + tip;
         amount = total / people;
         
-        // display
         System.out.println("Cost of bill: " + money.format(bill));
         System.out.println("Cost of tip: " + money.format(tip));
         System.out.println("Total cost: " + money.format(total));
