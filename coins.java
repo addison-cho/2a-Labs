@@ -26,10 +26,9 @@ public class coins{
         System.out.println("# of Pennies: ");
         pennies = scan.nextInt();
         
-        // adds up total
+        // converts and adds up total
         double total = (quarters*0.25 + dimes*0.1 + nickels*.05 + pennies*.01);
         
-        // display
         NumberFormat money = NumberFormat.getCurrencyInstance();
         System.out.println("Total: " + money.format(total));
         

@@ -1,7 +1,7 @@
 /*
  * Addison Cho
  * 8/31/2022
- * Random Phone Number (2.14, 2.13 in book)
+ * Random Phone Number (2.14)
  * Generates a random phone number with certain restrictions
  */
 import java.util.Random;
@@ -21,10 +21,9 @@ public class phone{
         a = generator.nextInt(8);
         b = generator.nextInt(8);
         c = generator.nextInt(8);
-        d = (int)(Math.random() * 723);
-        e = (int)(Math.random() * 9999);
+        d = (int)(Math.random() * 743);
+        e = (int)(Math.random() * 10000);
         
-        // display
         System.out.print("Your phone number is: " + a + b + c + "-" + fmt3.format(d) + "-" + fmt4.format(e));
         
     }

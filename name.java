@@ -16,7 +16,7 @@ public class name{
         System.out.println("What is your full name? ");
         name = scan.nextLine();
        
-        // index of spaces in String object name
+        // index of spaces in String object: name
         a = name.indexOf(" ");
         b = name.indexOf(" ", a + 1);
         
