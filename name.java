@@ -21,7 +21,7 @@ public class name{
         b = name.indexOf(" ", a + 1);
         
         System.out.println("\t" + name.substring(0, a) + " " + (name.substring(a+1, b)).charAt(0) + ".");
-        System.out.println("\t" + name.substring(b + 1, name.length()));
+        System.out.println("\t" + name.substring(b+1, name.length()));
         
     }
     
